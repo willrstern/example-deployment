@@ -1,0 +1,23 @@
+{
+  "name": "example-deployment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo 'tests passed'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willrstern/example-deployment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willrstern/example-deployment/issues"
+  },
+  "homepage": "https://github.com/willrstern/example-deployment#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
