@@ -20,12 +20,12 @@
    */
   deploy : {
     production : {
-      user : "depz",
+      user : "dep",
       host : "104.236.108.202",
       ref  : "origin/master",
       repo : "git@github.com:repo.git",
       path : "node-app",
-      ssh_options: " -i ssh/id_rsa",
+      ssh_options: "-i ssh/id_rsa",
       "post-deploy" : "nvm install && npm install && pm2 startOrRestart ecosystem.json --env production"
     },
     dev : {
