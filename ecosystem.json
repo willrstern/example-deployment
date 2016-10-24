@@ -20,7 +20,7 @@
    */
   deploy : {
     production : {
-      user : "node",
+      user : "dep",
       host : "104.236.108.202",
       ref  : "origin/master",
       repo : "git@github.com:repo.git",
